@@ -6,6 +6,6 @@ def fib(n):
   retrun fib(n-1)+fib(n-2)
 
 
-a=int(input())
+a=int(input("Enter size"))
 for i in range(a):
   print(fib(i))
