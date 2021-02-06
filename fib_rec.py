@@ -3,7 +3,7 @@ def fib(n):
     return 0
   if(n==1 or n==2):
     return 1
-  retrun fib(n-1)+fib(n-2)
+  return fib(n-1)+fib(n-2)
 
 
 a=int(input("Enter size"))
